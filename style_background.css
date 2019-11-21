@@ -1,0 +1,30 @@
+body{
+	background-image: url(../img/pattern2.png);
+	margin: 0;
+	padding: 0;
+}
+#main{
+	width: 640px;
+	height: 991px;
+	margin: 29px auto;
+	outline: 0px solid #FAA21A;
+	background-image: url(../img/3.jpg);
+	background-color: #FEFECC; 
+	background-repeat: repeat-x;
+}
+#main h1{
+	text-align: center;
+	outline: 0px solid #FAA21A;
+	padding-top: 170px;
+	font: 36px Verdan;
+	background-image: url(../img/5.png);
+	background-repeat: no-repeat;
+	background-position: 39px 150px;
+}
+#wrapper {
+	outline: 0px solid #cc0000;
+	background-image: url(../img/8.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 120px;
+	background-attachment: fixed;
+}
