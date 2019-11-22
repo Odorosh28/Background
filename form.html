@@ -1,0 +1,47 @@
+<!DOCTYPE html 5.0>
+<html>
+<head>
+ <title>Форми</title>
+ <meta charset="utf-8">
+ <link href="css/style_form.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper"
+<form 
+     action="formdata.php" 
+	 method="POST" 
+	 name="form1">
+         <fieldset><legend>Особисті дані</legend>
+		 <p class="question"><label for="name">Введіть Ваше ім'я </p>
+		 <p><input type="text" name="name" size="40" maxlength="10" id="name" class="input"></label></p>
+         <p class="question"><label for="password">Введіть Ваш пароль</p>
+		 <p><input class="input" type="password" size="20" name="password" id="password" maxlength="10"></label></p>
+		 </fieldset>
+		 <fieldset><legend>Питання</legend>
+		 <p class="question">Чи любите Bи економити час?</p>
+		 <p><label>Так<input type="radio" name="time" value="yes" checked></label>   <label>Ні<input type="radio" name="time" value="no"></label>
+		 <p class="question">Що мотивує Вас розвиватися?</p>
+		 <p><label><input type="checkbox" name="mon">Більша заробітня плата</label>
+		     <label><input type="checkbox" name="self">Саморозвиток</label>
+			 <label><input type="checkbox" name="ch">Діти</label></p>
+		 <p class="question">Скільки годи Ви спите?</p>
+		 <p><select name="hour" >
+            <option value="five">5</option>
+            <option value="six">6</option>
+            <option value="seven">7</option>
+            <option selected value="eight">8</option>	
+            <option value="nine">9+</option>	
+         </select></p>
+		 </fieldset>
+         <p class="question tp"><label for="text">Як саме Ви розподіляєте свій час?</label></p>
+         <p><textarea name="text" id="text" cols="50" rows="7">Text...</textarea></p> <!-- readonly -->
+		 <p><input type="image" src="img/9.png" name="bot" width="90" height="90"></p>
+         <!--<p><input type="submit" name="submit" value="Відправити">
+            <input type="reset" name="reset" value="Скинути все"></p>
+         <p><input type="image" src="img/2.jpg" name="bot" width="50" height="50"></p>			
+		 <p><input type="button" value="knopka" name="button"></p> -->
+</form>
+</div>
+</body>
+
+</html>﻿
